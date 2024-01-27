@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f2734;
+}
+
+.container{
+  max-width: 850px;
+  width: 100%;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #ddd;
+  transition: all 0.6s ease-in;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .btn{
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  outline: none;
+  font-size: 0.9rem;
+  background-color: #cb3050;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.container .btn:focus{
+  transform: scale(0.98);
+  outline: none;
+}
+
+.container h2{
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hide-num{
+  text-align: center;
+  font-size: 3rem;
+  background-color: #cb3050;
+  border-radius: 4px;
+  width: 25%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.message{
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.number-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.number-content input{
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+}
+
+.number-content button{
+  margin-top: 1rem;
+  display: block;
+}
+
+.content{
+  font-size: 1.2rem;
+}
+
+.hide-num{
+  font-size: 2rem;
+  padding: 8px;
+  width: 400px;
+  transition: all 0.3s ease-in;
+}
